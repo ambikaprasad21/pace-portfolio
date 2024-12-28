@@ -5,6 +5,7 @@ import Footer from "./compnenets/footer";
 import Skills from "./compnenets/skills";
 import Leadership from "./compnenets/leadership";
 import Project from "./compnenets/project/project";
+import Experience from "./compnenets/experience";
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       {/* <Footer /> */}
       {/* <Skills /> */}
       {/* <Leadership /> */}
-      <Project />
+      {/* <Project /> */}
+      <Experience />
     </div>
   );
 }
