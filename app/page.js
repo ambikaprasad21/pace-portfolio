@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Header from "./compnenets/header";
 import Footer from "./compnenets/footer";
 import Skills from "./compnenets/skills";
+import Leadership from "./compnenets/leadership";
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
       {/* <Header />
       <h1>hello</h1> */}
       {/* <Footer /> */}
-      <Skills />
+      {/* <Skills /> */}
+      <Leadership />
     </div>
   );
 }

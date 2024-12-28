@@ -1,0 +1,22 @@
+.l_c {
+  padding: 5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.c {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.para {
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.slider {
+  width: 50%;
+}
