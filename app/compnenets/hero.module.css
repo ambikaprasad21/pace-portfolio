@@ -76,3 +76,8 @@
   background-color: white;
   color: black;
 }
+
+.btn a {
+  text-decoration: none;
+  color: inherit;
+}

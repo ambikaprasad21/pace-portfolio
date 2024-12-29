@@ -6,6 +6,11 @@
   gap: 2rem;
 }
 
+.l_c h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
 .c {
   display: flex;
   justify-content: space-evenly;

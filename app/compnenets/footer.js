@@ -11,8 +11,9 @@ export default function Footer() {
         at, <span className={styles.mail}>khansaif59@gmail.com</span>.
       </p>
       <div className={styles.f_b}>
-        🧑‍💻 with 💖 by <span className={styles.f_n}>Mohd Shahid Iqbal</span>{" "}
-        using ⚛️
+        <i className="fas fa-code"></i> with <i className="fas fa-heart"></i> by{" "}
+        <span className={styles.f_n}>Mohd Shahid Iqbal</span> using{" "}
+        <i className="fab fa-react"></i>
       </div>
     </div>
   );

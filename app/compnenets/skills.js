@@ -55,21 +55,21 @@ export default function Skills() {
   }
 
   return (
-    <div className={styles.skills}>
+    <div className={styles.skills} id="skills">
       <h2 className={styles.s_h}>Skills</h2>
       <div className={styles.s_c}>
         <div className={styles.tab}>
           <div
             onClick={() => handleTabClick(1)}
             style={active ? activeTab : normalTab}
-            className={active ? styles.tab_hover : ""}
+            className={styles.tab_hover}
           >
             Technical Skills
           </div>
           <div
             onClick={() => handleTabClick(0)}
             style={!active ? activeTab : normalTab}
-            className={!active ? styles.tab_hover : ""}
+            className={styles.tab_hover}
           >
             Soft Skills
           </div>

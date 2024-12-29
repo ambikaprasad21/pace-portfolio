@@ -2,7 +2,7 @@ import styles from "./about.module.css";
 
 export default function About() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="aboutme">
       <div className={styles.image_cont}>
         <img src="/images/p_photo.png" alt="profile_photo" />
       </div>

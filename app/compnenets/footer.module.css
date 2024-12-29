@@ -1,10 +1,10 @@
 .footer {
   background-color: #f5f5f5;
-  padding: 4rem 5rem;
+  padding: 3rem 5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .f_h {
@@ -13,8 +13,8 @@
 }
 
 .f_t {
-  font-size: 1rem;
-  font-weight: 20;
+  font-size: 18px;
+  font-weight: 200;
 }
 
 .mail {
@@ -27,8 +27,8 @@
 .f_n {
   background-color: black;
   color: white;
-  padding: 2px 4px;
-  border-radius: 9px;
-  font-size: 1rem;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 12px;
   font-weight: 500;
 }

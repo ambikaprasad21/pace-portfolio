@@ -1,5 +1,6 @@
 .skills {
   padding: 2rem 7rem;
+  margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,14 +19,22 @@
 
 .tab {
   display: flex;
-  /* align-items: center; */
   justify-content: space-around;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 
 .tab div {
   width: 100%;
   text-align: center;
+}
+
+.tab_hover {
+  border-color: transparent;
+  border-width: 0px 0px 0 0px;
+  border-style: solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .tab_hover:hover {

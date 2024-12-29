@@ -2,7 +2,7 @@ import styles from "./experience.module.css";
 
 export default function Experience() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="experience">
       <h2>Experiences</h2>
       <div className={styles.e_item}>
         <div className={styles.exp}>

@@ -5,7 +5,7 @@ import styles from "./hero.module.css";
 
 export default function Hero() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="home">
       <div className={styles.intro}>
         <h1>Mohd Shahid Iqbal</h1>
         {/* <p>Passionate about changing the world with technology.</p> */}
@@ -35,7 +35,9 @@ export default function Hero() {
           <i className="fab fa-linkedin  fa-3x socialicons"></i>
         </a>
       </div>
-      <button className={styles.btn}>More about me</button>
+      <button className={styles.btn}>
+        <a href="#aboutme">More about me</a>
+      </button>
     </div>
   );
 }

@@ -78,7 +78,7 @@ const projectData = [
 
 export default function Project() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="projects">
       <h2>Recent Projects</h2>
       <div className={styles.p_c}>
         {projectData.map((project) => (
