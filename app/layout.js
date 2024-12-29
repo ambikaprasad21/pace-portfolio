@@ -1,3 +1,4 @@
+import Script from "next/script";
 import localFont from "next/font/local";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
@@ -34,10 +35,10 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
-        <script
+        <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-          strategy="beforeInteractive"
-        ></script>
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );
