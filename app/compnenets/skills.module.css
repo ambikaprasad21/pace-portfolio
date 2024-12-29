@@ -63,7 +63,7 @@
   height: 1rem;
   width: 0%;
   transition: width 10s ease-in-out;
-  /* animation: progressAnimation 1s ease-in-out forwards; */
+  animation: progress 1s ease-in-out forwards;
 }
 
 /* @keyframes progressAnimation {
@@ -75,6 +75,16 @@
     width: 100%;
   }
 } */
+@keyframes progress {
+  from {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  to {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+}
 
 .s_detail {
 }

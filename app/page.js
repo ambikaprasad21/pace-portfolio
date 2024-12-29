@@ -7,6 +7,7 @@ import Leadership from "./compnenets/leadership";
 import Project from "./compnenets/project/project";
 import Experience from "./compnenets/experience";
 import About from "./compnenets/about";
+import Hero from "./compnenets/hero";
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
       {/* <Leadership /> */}
       {/* <Project /> */}
       {/* <Experience /> */}
-      <About />
+      {/* <About /> */}
+      {/* <Hero /> */}
     </div>
   );
 }

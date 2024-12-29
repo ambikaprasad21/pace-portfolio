@@ -7,7 +7,7 @@ const tabStyle = {
 };
 
 const activeTab = {
-  color: "#bbb",
+  color: "#000",
   fontWeight: 100,
   borderWidth: "1px 1px 0 1px",
   borderColor: "#bbb",
